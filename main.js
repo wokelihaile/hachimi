@@ -2,10 +2,10 @@
   const app = express();
   const port = 3000;
   var name = "Ryan";
-  app.get('/hachimi/', (req, res) => {
+  app.get('/hachimi', (req, res) => {
     res.sendFile(__dirname+'/index.html');
   });
-  app.get('/somethingfun', (req, res) => {
+  app.get('/hachimi/somethingfun', (req, res) => {
     res.sendFile(__dirname+'/funthing.html');
   });
 app.get('/whoisgay', (req, res) => {
