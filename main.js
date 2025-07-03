@@ -3,7 +3,7 @@
   const port = 3000;
   var name = "Ryan";
   app.get('/', (req, res) => {
-    res.sendFile(__dirname+'/home.html');
+    res.sendFile(__dirname+'/index.html');
   });
   app.get('/somethingfun', (req, res) => {
     res.sendFile(__dirname+'/fun.html');
