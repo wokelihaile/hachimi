@@ -6,7 +6,7 @@
     res.sendFile(__dirname+'/index.html');
   });
   app.get('/somethingfun', (req, res) => {
-    res.sendFile(__dirname+'/fun.html');
+    res.sendFile(__dirname+'/funthing.html');
   });
 app.get('/whoisgay', (req, res) => {
   res.send(`${name} is gay`);
