@@ -5,7 +5,7 @@
   app.get('/hachimi/', (req, res) => {
     res.sendFile(__dirname+'/index.html');
   });
-  app.get('/hachimi/somethingfun', (req, res) => {
+  app.get('/somethingfun', (req, res) => {
     res.sendFile(__dirname+'/funthing.html');
   });
 app.get('/whoisgay', (req, res) => {
